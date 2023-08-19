@@ -1,3 +1,22 @@
+THIS IS A MODIFIED VERSION OF GNU DIFF
+
+To build, follow the steps.
+1. run ./configure
+2. run make
+* Permissions maybe required to specific files to do so.
+
+A few options are added.
+- '--list'
+- '--created'
+- '--modified'
+- '--deleted'
+
+Please use the options '--qr' with the above.
+Not tested what happens when not followed.
+
+THE ORIGINAL README STARTS FROM BELOW
+----------------------------------------------------------------------
+
 README for GNU DIFF
 
 This directory contains the GNU diff, diff3, sdiff, and cmp utilities.
